@@ -65,7 +65,7 @@ function dc_social_sharing_buttons($content)
         $titleArticulo 	= str_replace( ' ', '%20', get_the_title());
 
 
-		$twitterURL		=	'https://twitter.com/intent/tweet?text='.$titleArticulo.'&amp;url='.$urlArticulo.'&amp;via=DecodeCMS';
+		$twitterURL		=	'https://twitter.com/intent/tweet?text='.$titleArticulo.'&amp;url='.$urlArticulo.'&amp;';
         $facebookURL 	=	'https://www.facebook.com/sharer/sharer.php?u='.$urlArticulo;
 		$pinterestURL 	=	'https://pinterest.com/pin/create/button/?url=&media=&description='.$urlArticulo;
 		$whatsappURL 	=	'https://wa.me/?text='.$titleArticulo . ' ' . $urlArticulo;
